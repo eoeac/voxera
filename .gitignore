@@ -1,0 +1,76 @@
+# planning-with-files working memory (Do NOT track in Git)
+.planning/
+.active_plan
+task_plan.md
+findings.md
+progress.md
+
+# Private architecture decisions
+# Architecture decisions are versioned.
+
+# Local Agent customizations
+.agents/skills/planning-with-files*/
+
+# Environment & Virtualenvs
+.venv/
+env/
+venv/
+ENV/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Node.js & Web build artifacts
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Tauri build artifacts
+src-tauri/target/
+
+# Local runtime data & SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+/data/
+/audio/
+/models/
+
+# Logs & Temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Portable and test artifacts
+.venv_*/
+runtime/
+dist_release/
+dist_staging/
+Voxera.exe
+*.egg-info/
+.uv-cache/
+.npm-cache/
+.test-data/
+acceleration.json
+
+.python/
+
+# Local setup and development scratch files
+/.portable
+/skills-lock.json
+/test_gbk.bat
+.env
+.env.*
+!.env.example

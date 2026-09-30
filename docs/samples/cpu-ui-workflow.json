@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "model_name": "Qwen3-TTS 1.7B VoiceDesign",
+    "model_version": "sha256:a4cee85fb2941b66",
+    "seed": 573478,
+    "generation_time_ms": 37610,
+    "duration_seconds": 2.56,
+    "status": "completed",
+    "reference_clip_id": null,
+    "sample_text": "你好，欢迎使用声音工作台。",
+    "metadata": {
+      "device": "cpu",
+      "mode": "voice_design",
+      "sample_rate": 24000,
+      "packages": {
+        "torch": "2.14.0",
+        "qwen-tts": "0.1.1",
+        "voxcpm": "2.0.3",
+        "numpy": "2.5.3",
+        "soundfile": "0.14.0"
+      },
+      "parameters": {
+        "language": "Auto",
+        "attention": "sdpa",
+        "model_id": "qwen3_tts_voicedesign"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "model_name": "Qwen3-TTS 1.7B Base",
+    "model_version": "sha256:9bf0d554f26b46ad",
+    "seed": 445169,
+    "generation_time_ms": 27110,
+    "duration_seconds": 2.24,
+    "status": "completed",
+    "reference_clip_id": 1,
+    "sample_text": "这是复用正式音色的新文本。",
+    "metadata": {
+      "device": "cpu",
+      "mode": "voice_clone",
+      "sample_rate": 24000,
+      "packages": {
+        "torch": "2.14.0",
+        "qwen-tts": "0.1.1",
+        "voxcpm": "2.0.3",
+        "numpy": "2.5.3",
+        "soundfile": "0.14.0"
+      },
+      "parameters": {
+        "language": "Auto",
+        "attention": "sdpa",
+        "model_id": "qwen3_tts_base"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "model_name": "VoxCPM2 2B",
+    "model_version": "sha256:c8ce6f5642998f6b",
+    "seed": 110548,
+    "generation_time_ms": 49407,
+    "duration_seconds": 3.2,
+    "status": "completed",
+    "reference_clip_id": 1,
+    "sample_text": "这是复用正式音色的新文本。",
+    "metadata": {
+      "device": "cpu",
+      "mode": "voice_clone",
+      "sample_rate": 48000,
+      "packages": {
+        "torch": "2.14.0",
+        "qwen-tts": "0.1.1",
+        "voxcpm": "2.0.3",
+        "numpy": "2.5.3",
+        "soundfile": "0.14.0"
+      },
+      "parameters": {
+        "cfg_value": 2.0,
+        "inference_timesteps": 10,
+        "optimize": false
+      }
+    }
+  }
+]

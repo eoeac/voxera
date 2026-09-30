@@ -1,0 +1,32 @@
+{
+  "model": "voxcpm2_2b",
+  "source": "hf-mirror",
+  "revision": "32279effe8c19989596f05d353d1447f51d9e915",
+  "digest": "c8ce6f5642998f6b473d107a5a6493bd775f95881628313349091b4d2e144a68",
+  "files": {
+    "audiovae.pth": {
+      "size": 376951122,
+      "sha256": "94b5d51e107e0507d4acc976cfdadb64edd6fd06d1f751dadbf2fd1594274bf1"
+    },
+    "config.json": {
+      "size": 4336,
+      "sha256": "405f0dcd92f7feba6011ed4eac5c8d4f74cba9712f07fd5cfa3063bbdd95402c"
+    },
+    "model.safetensors": {
+      "size": 4580080592,
+      "sha256": "f7f964cfa9da23653baec6e6f7750719977ad944ed9f95fe52fe3a620506891d"
+    },
+    "special_tokens_map.json": {
+      "size": 1632,
+      "sha256": "068594063e37662c02b21acf42ebb334ef6a74fb810e68a2368f88f08351de76"
+    },
+    "tokenizer.json": {
+      "size": 3676772,
+      "sha256": "f8984687e4a92a3503d521396d454b7d68e9fdaab2a0288eb3536c7c1aa4bc20"
+    },
+    "tokenizer_config.json": {
+      "size": 5059,
+      "sha256": "e78a3ebb48a0b9437efd1823b6b726c823da89e49dd8bcc90c02419d9baa772b"
+    }
+  }
+}
